@@ -19,3 +19,7 @@ SITES E APLICAÇÕES USADAS:
   - porta: 3306
   - palavra pass db: z:Axw+w#0k@mN{w5
 ------------------------------------------------------------
+- InfinityFree: 
+  - Email address: po2318@alunos.epbjc.pt
+  - Palavra pass IN F: Ratinhojunior21092004
+    - site: supplyspackage.infinityfreeapp.com
