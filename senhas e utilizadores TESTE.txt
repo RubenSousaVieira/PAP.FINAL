@@ -12,3 +12,6 @@ SITES E APLICAÇÕES USADAS:
 - github : RubenSousaVieira/PAP.FINAL
 - xampp v3.3.0 [Compiled: Apr 6th 2021] : COMPUTADOR DE CASA
 - AwardSpace : supplyspackage.atwebpages.com
+  - nome da base de dados: 4441326_supplyspackage
+  - palavra pass db: z:Axw+w#0k@mN{w5
+
