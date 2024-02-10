@@ -1,9 +1,9 @@
 <?php
 
 define("DBSERVER", "localhost");
-define("DBUSER", "psb212318");
-define("DBPWD", "psb212318");
-define("DBNAME", "psb212318_yrepair");
+define("DBUSER", "root");
+define("DBPWD", "");
+define("DBNAME", "supplys-package");
 
 $conexao = mysqli_connect(DBSERVER, DBUSER, DBPWD, DBNAME);
 

@@ -1,0 +1,7 @@
+UTILIZADORES E SENHAS ESCONDIDAS:
+
+- admin : admin ($2y$10$dpjHpnWjhsPonkSUNXmu4OdS8ChtOk268bF./tH86JJuBiYd79sW.)
+
+- psb212318 : psb212318 ($2y$10$vAiT6pzqg1O1CGSljqYnLOeROSkT.QO/uLlJMwbEw4aOKS0156eEe)
+
+- teste02: rub19vieira_2004 ($2y$15$73B0F.sf8XUd/qfq765GY.7vgsrGlAOidsAOIbpztUR3f5EPUCAVq)

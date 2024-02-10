@@ -20,7 +20,7 @@ include_once("check_session.php");
 </head>
 
 <nav class="navbar navbar-expand-sm bg-info navbar-dark mb-4">
-  <a class="navbar-brand" href="home.php">yRepair - Gestão de Reparações</a>
+  <a class="navbar-brand" href="home.php">SUPPLYS-PACKAGE - Administração</a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

@@ -39,7 +39,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $concluidaTarefa = (!empty($_POST["concluidaTarefa"])) ? $_POST["concluidaTarefa"] : 0;
 
     if(empty($idTarefa)){
-        $query = "insert into tarefas (tarefa, descricao, prazo, prioridade, concluida) values('$designacaoTarefa', '$descricaoTarefa', '$prazoTarefa', '$prioridadeTarefa', '$concluidaTarefa')";
+        $query = "insert into tarefas (designacaoTarefa, descricaoTarefa, prazoTarefa, prioridadeTarefa, concluidaTarefa) values('$designacaoTarefa', '$descricaoTarefa', '$prazoTarefa', '$prioridadeTarefa', '$concluidaTarefa')";
+
         $resultado = mysqli_query($conexao, $query);
         if($resultado) {
             header("location: tarefas.php?msg=1");
