@@ -21,6 +21,9 @@ EM FASE DE TESTES
   - palavra pass db: z:Axw+w#0k@mN{w5
 ------------------------------------------------------------
 - InfinityFree: 
+  - User: if0_35955496 
+  - Password: if0_35955496
+    - Website IP: 185.27.134.179
   - Email address: po2318@alunos.epbjc.pt
   - Palavra pass IN F: Ratinhojunior21092004 / po2318EPBJC
     - site: supplyspackage.infinityfreeapp.com
