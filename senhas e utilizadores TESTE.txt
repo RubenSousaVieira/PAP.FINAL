@@ -22,5 +22,5 @@ EM FASE DE TESTES
 ------------------------------------------------------------
 - InfinityFree: 
   - Email address: po2318@alunos.epbjc.pt
-  - Palavra pass IN F: Ratinhojunior21092004
+  - Palavra pass IN F: Ratinhojunior21092004 / po2318EPBJC
     - site: supplyspackage.infinityfreeapp.com
