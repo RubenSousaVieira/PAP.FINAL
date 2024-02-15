@@ -24,6 +24,12 @@ EM FASE DE TESTES
   - User: if0_35955496 
   - Password: if0_35955496
     - Website IP: 185.27.134.179
+
+  - FTP Details for if0_35955496:
+    - FTP USERNAME: if0_35955496
+    - FTP PORT (OPTIONAL): 21
+    - FTP PASSWORD: YeuVUd9ZNuzb 
+    - FTP HOSTNAME: ftpupload.net
   - Email address: po2318@alunos.epbjc.pt
   - Palavra pass IN F: Ratinhojunior21092004 / po2318EPBJC
     - site: supplyspackage.infinityfreeapp.com
