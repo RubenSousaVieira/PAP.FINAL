@@ -16,6 +16,9 @@ EM FASE DE TESTES
 - AwardSpace: supplyspackage.atwebpages.com
 - https://cp1.awardspace.net/
   - Client ID: 4441326
+    - Email: po2318@alunos.epbjc.pt
+    - Senha: Ratinhojunior21092004_
+
   - nome da base de dados: 4441326_supplyspackage
   - utilizador: 4441326_supplyspackage
   - servidor: fdb1034.awardspace.net
