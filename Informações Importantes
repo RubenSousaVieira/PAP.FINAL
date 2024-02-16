@@ -50,3 +50,8 @@ https://www.000webhost.com/
 - Website:
   - supplypackage.000webhostapp.com
   - Senha: po2318EPBJC_
+
+- PHPMYADMIN:
+  - Name: supplys-package
+  - Username: root
+  - Password: po2318EPBJC_
