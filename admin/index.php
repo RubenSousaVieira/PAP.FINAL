@@ -8,6 +8,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <!-- Template Stylesheet -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom CSS neste caso para diminuir o tamanho do container em ecrãs de menor resolução -->
     <style>
@@ -16,35 +17,36 @@
                 max-width: 40% !important;
             }
         }
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1; /* Definindo um z-index negativo para colocar o vídeo atrás do conteúdo */
+        }
     </style>
 </head>
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">SUPPLYS-PACKAGE</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="servicos.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" text-align="left" href="admin\index.php">ADMIN LOGIN</a>
-          </li>
-        </ul>
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+  <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+      <h2 class="mb-2 text-white">SupplysPackages - Inicio</h2>
+  </a>
+  <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a href="index.html" class="nav-item nav-link">Home</a>
+          <a href="sobrenos.html" class="nav-item nav-link">Sobre Nós</a>
+          <a href="servicos.html" class="nav-item nav-link active">Serviços</a>
+          <a href="contact.html" class="nav-item nav-link">Contactos</a>
+          <a href="admin/index.php" class="nav-item nav-link">Login</a>
       </div>
-    </div>
-  </nav>
-  <br></br>
-    <br></br>
+  </div>
+  </div>
+</nav>
+<!-- Navbar End -->
     
 <body>
 
@@ -130,6 +132,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         ?>
 
     </div>
-
+    <video autoplay muted loop id="myVideo">
+        <source src="img/mp4/background3.mp4" type="video/mp4">
+    </video>
 </body>
 </html>
