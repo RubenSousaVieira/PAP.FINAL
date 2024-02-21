@@ -37,7 +37,12 @@ EM FASE DE TESTES
   - Palavra pass IN F: Ratinhojunior21092004 / po2318EPBJC
     - site: supplyspackage.infinityfreeapp.com
 
-Base de Dados;
+Base de Dados:
+  - MYSQL HOSTNAME: sql304.infinityfree.com
+  - MYSQL USERNAME: if0_35955496
+  - MYSQL PASSWORD: YeuVUd9ZNuzb
+  - MYSQL PORT (OPTIONAL): 3306
+  - MYSQL DATABASE NAME: if0_35955496_XXX
 
 ------------------------------------------------------------
 EM FASE DE TESTES 
