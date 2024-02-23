@@ -1,1 +1,14 @@
+CHAT BOT (FASE DE TESTES):
+--------------------------------------------------------------------------
+Site: https://app.hubspot.com/
+Ponto de situação: NAO CONSEGUI COLOCAR O SISTEMA DE TICKETS
+Endereço de E-mail: po2318@alunos.epbjc.pt
+Senha: po2318_EPBJC
+Nome: Rúben / Sobrenome: Vieira
 
+Instalar o código de rastreamento no seu site
+Coloque o código antes do fim da tag <body> em qualquer página em que você deseja ativar a HubSpot:
+
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/144197934.js"></script>
+<!-- End of HubSpot Embed Code -->
