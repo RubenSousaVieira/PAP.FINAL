@@ -1,0 +1,33 @@
+Website for supplyspackage.wuaze.com
+
+FTP SETTINGS
+FTP user name:	if0_36064716
+FTP password:	Same as your cpanel password
+FTP host name:	ftp.infinityfree.com
+FTP port:	21
+Account Password: KB7cWxRQz1RTRiB
+
+----------------------------------------------------
+ACCOUNT DETAILS
+Main Domain:	uvjulqg2.infinityfree.com
+FTP hostname:	ftpupload.net
+FTP username:	if0_36064716
+MySQL hostname:	sql300.infinityfree.com
+MySQL username:	if0_36064716
+Hosting Volume:	vol6_6
+
+STATISTICS
+Plan:	infinityfree
+FTP accounts:	1 / 1
+Sub-Domains:	0 / Unlimited
+Add-on Domains:	1 / Unlimited
+Parked Domains:	0 / Unlimited
+MySQL Databases:	0 / Unlimited
+Disk Quota:	5 GB
+Disk Space Used:	0 MB
+Disk Free:	4752 MB
+Inodes Used:	0 % (0 of 30019)
+Bandwidth:	Unlimited
+Bandwidth used:	0 MB
+Bandwidth remaining:	Unlimited
+Daily Hits Used:	0 % (0 of 50000)
