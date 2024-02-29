@@ -1,5 +1,8 @@
 Website for supplyspackage.wuaze.com
 
+po2318@alunos.epbjc.pt  
+
+
 FTP SETTINGS
 FTP user name:	if0_36064716
 FTP password:	Same as your cpanel password
