@@ -1,6 +1,8 @@
 Website for supplyspackage.wuaze.com
 
-po2318@alunos.epbjc.pt  
+LOGIN
+Utilizador: po2318@alunos.epbjc.pt  
+Senha: po2318EPBJC
 
 
 FTP SETTINGS
