@@ -37,11 +37,10 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
       <div class="navbar-nav ms-auto p-4 p-lg-0">
-          <a href="index.html" class="nav-item nav-link">Home</a>
-          <a href="sobrenos.html" class="nav-item nav-link">Sobre Nós</a>
-          <a href="servicos.html" class="nav-item nav-link active">Serviços</a>
-          <a href="contact.html" class="nav-item nav-link">Contactos</a>
-          <a href="admin/index.php" class="nav-item nav-link">Login</a>
+          <a href=".\index.html" class="nav-item nav-link">Home</a>
+          <a href=".\sobrenos.html" class="nav-item nav-link">Sobre Nós</a>
+          <a href=".\servicos.html" class="nav-item nav-link active">Serviços</a>
+          <a href=".\contact.html" class="nav-item nav-link">Contactos</a>
       </div>
   </div>
   </div>
