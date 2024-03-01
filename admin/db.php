@@ -1,9 +1,9 @@
 <?php
 
-define("DBSERVER", "localhost");
-define("DBUSER", "root");
-define("DBPWD", "");
-define("DBNAME", "supplys-package");
+define("DBSERVER", "localhost"); // localhost em casa e na escola
+define("DBUSER", "psb212318"); // root em casa ou psb212318 na escola
+define("DBPWD", "psb212318"); // vazio em casa ou psb212318 na escola 
+define("DBNAME", "psb212318_supplys-package"); // supplys-package em casa ou psb212318_supplys-package na escola
 
 $conexao = mysqli_connect(DBSERVER, DBUSER, DBPWD, DBNAME);
 

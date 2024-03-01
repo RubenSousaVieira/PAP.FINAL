@@ -13,8 +13,11 @@ $query = "select count(*) from tarefas";
 $resultado = mysqli_query($conexao, $query);
 $totalRegistos = mysqli_fetch_array($resultado)[0];
 $totalPaginas = ceil($totalRegistos / $nRegistosPagina);
-//echo "Total Registos: $totalRegistos <br>";
+
+echo "Total Registos: $totalRegistos <br>";
+
 //echo "Total Paginas: $totalPaginas";
+
 $query = "select * from tarefas limit $regInicial, $nRegistosPagina";
 $resultado = mysqli_query($conexao, $query);
 $registos = mysqli_num_rows($resultado);

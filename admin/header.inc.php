@@ -31,16 +31,7 @@ include_once("check_session.php");
 
       <!-- Dropdown Tarefas -->
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Reparações</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="tarefas.php">Lista</a>
-          <a class="dropdown-item" href="tarefa.php">Nova</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Clientes
-          
-        </a>
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Encomendas</a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="tarefas.php">Lista</a>
           <a class="dropdown-item" href="tarefa.php">Nova</a>

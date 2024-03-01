@@ -59,15 +59,66 @@ include_once("header.inc.php");
 ?>
 
 <div class="container">
-    <h2>Tarefa</h2> 
+    <h2>Encomenda</h2> 
     <hr>
     <form method="POST" action="" enctype="multipart/form-data">
+
+
         <div class="form-group row">
-            <label for="designacaoTarefa" class="col-sm-3 col-form-label">Tarefa</label>
+            <label for="designacaoTarefa" class="col-sm-3 col-form-label">Endereço de Encomenda</label>
             <div class="col-sm-7">
-            <input type="text" name="designacaoTarefa" id="designacaoTarefa" class="form-control" placeholder="designação da tarefa" value="<?=$designacaoTarefa?>" required>
+                <input type="text" name="designacaoTarefa" id="designacaoTarefa" class="form-control" placeholder="designação da tarefa" value="<?=$designacaoTarefa?>" required> 
+                <p></p>
+                <button id="gerarEndereco" class="btn btn-primary">Gerar Endereço</button>
             </div>
         </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    function gerarEnderecoAleatorio(length = 12) {
+        var characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var charactersLength = characters.length;
+        var randomString = '';
+        for (var i = 0; i < length; i++) {
+            randomString += characters[Math.floor(Math.random() * charactersLength)];
+        }
+        return randomString;
+    }
+
+    $(document).ready(function() {
+        $('#gerarEndereco').click(function() {
+            var enderecoAleatorio = gerarEnderecoAleatorio();
+            $('#designacaoTarefa').val(enderecoAleatorio);
+        });
+    });
+</script>
+
+<div class="col-sm-7">
+    <input type="text" name="pin" id="pin" class="form-control" placeholder="PIN de 4 dígitos" required>
+    <p></p>
+    <button id="gerarPIN" class="btn btn-primary">Gerar PIN</button>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    function gerarPINAleatorio(length = 4) {
+        var pin = '';
+        for (var i = 0; i < length; i++) {
+            pin += Math.floor(Math.random() * 10); // Apenas dígitos de 0 a 9
+        }
+        return pin;
+    }
+
+    $(document).ready(function() {
+        $('#gerarPIN').click(function() {
+            var pinAleatorio = gerarPINAleatorio();
+            $('#pin').val(pinAleatorio);
+        });
+    });
+</script>
+
+
+
         <div class="form-group row">
             <label for="descricaoTarefa" class="col-sm-3 col-form-label">Descrição</label>
             <div class="col-sm-7">
