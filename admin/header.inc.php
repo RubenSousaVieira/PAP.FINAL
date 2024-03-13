@@ -19,7 +19,7 @@ include_once("check_session.php");
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
 </head>
 
-<nav class="navbar navbar-expand-sm bg-info navbar-dark mb-4">
+<nav class="navbar navbar-expand-sm bg-success navbar-dark mb-4">
   <a class="navbar-brand" href="home.php">SUPPLYS-PACKAGE - Administração</a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,8 +33,8 @@ include_once("check_session.php");
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Encomendas</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="tarefas.php">Lista</a>
-          <a class="dropdown-item" href="tarefa.php">Nova</a>
+          <a class="dropdown-item" href="encomendas.php">Lista</a>
+          <a class="dropdown-item" href="nova_encomenda.php">Nova</a>
         </div>
       </li>
       <li class="nav-item">
